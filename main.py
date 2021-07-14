@@ -97,7 +97,7 @@ class TestPlayer(Participant):
         self.number_of_robots = info['number_of_robots']
         self.end_of_frame = False
         self._frame = 0 
-        self.wheels = [ 0 for _ in range(25)]
+        self.wheels = [ 0 for _ in range(30)]
         self.cur_posture = []
         self.prev_posture = []
         self.cur_posture_opp = []
@@ -234,7 +234,7 @@ class TestPlayer(Participant):
 
             ## set speed ##
             for role in range(self.number_of_robots):
-                self.wheels[5*role:5*role+5] = get_action(role, self.action[role], self.max_linear_velocity)
+                self.wheels[6*role:6*role+6] = get_action(role, self.action[role], self.max_linear_velocity)
 
             self.set_speeds(self.wheels)
 

@@ -369,7 +369,7 @@ def get_action(robot_id, action_number, max_linear_velocity):
     wheel = [GK_WHEELS, D12_WHEELS, D12_WHEELS, F12_WHEELS, F12_WHEELS]
 
 
-    return wheel[robot_id][action_number][0], wheel[robot_id][action_number][1], wheel[robot_id][action_number][2], wheel[robot_id][action_number][3], wheel[robot_id][action_number][4]
+    return wheel[robot_id][action_number][0], wheel[robot_id][action_number][1], wheel[robot_id][action_number][2], wheel[robot_id][action_number][3], wheel[robot_id][action_number][4], 0
 
 class Logger():
     def __init__(self):
