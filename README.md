@@ -23,7 +23,6 @@ To train models,
 
 Envronment: Ubuntu 16.04, python3.5, torch 1.0.0
 
-
 ## Video Clips
 **After 0k iterations**
 
@@ -44,3 +43,6 @@ Envronment: Ubuntu 16.04, python3.5, torch 1.0.0
 **Highlights**
 
 <img width="60%" src=https://user-images.githubusercontent.com/48238345/125584429-e593a3ec-18a0-4024-afbf-6a516ca99ede.gif>
+
+***
+If you have any doubt to run the environment send me an email.
