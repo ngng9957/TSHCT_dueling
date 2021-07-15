@@ -8,16 +8,16 @@ The simulator used for this repository is similar to version 0.1 on the aisoccer
 To run the code on the version 0.1, adjustment has been committed.
 
 This repository corresponds to a folder, such as "player_rulebased-A" and "player_rulebased-B", which are in "examples" folder in ["aisoccer-3d.zip(tar.gz)"](https://github.com/aisoccer/aisoccer-3d/releases).
-After unzip "aisoccer-3d.zip(tar.gz)", download this repository into the "exaples" folder.
+After unzip "aisoccer-3d.zip(tar.gz)", download this repository into the "examples" folder.
 
-To run the code, edit the "excutable" path in "config.json".
-Following files can be "excutable" path (the files should be excutable in linux).
+To run the code, edit the "executable" path in "config.json".
+Following files can be "executable" path (the files should be executable in linux).
  - "play.py": Program that controls a team by using trained models(used for proponent team while evaluating).
  - "main.py": Program that controls a team by using models which are being trained by "train.py"(used for proponent team while training).
  - "selfplay.py": Program that controls a team by using trained models which are updated when the number of training episodes reaches a particular number(used for opponent team while training).
 
 To train models,
- 1. Edit the "excutable" path to "main.py"
+ 1. Edit the "executable" path to "main.py"
  2. Delete "config.pickle"
  3. Run python script "train.py"
 
